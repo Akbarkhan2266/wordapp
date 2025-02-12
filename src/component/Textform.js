@@ -36,10 +36,10 @@ export default function Textform(props) {
     <label for="my box" class="form-label"></label>
     <textarea class="form-control" value={text} onChange={handleUpChange} rows="6"></textarea>
   </div>
-  <button className='btn btn-primary mx-2' onClick={handleUpClick}>Convert to uppercase </button>
-  <button className='btn btn-primary mx-2' onClick={handleLoClick}>Convert to lowercase </button>
-  <button className='btn btn-primary mx-2' onClick={handleTrimClick}>Remove white spaces on both sides </button>
-  <button className='btn btn-primary mx-2' onClick={handleReplaceClick}>Replace the words</button>
+  <button className='btn btn-primary mx-2 my2' onClick={handleUpClick}>Convert to uppercase </button>
+  <button className='btn btn-primary mx-2 my2' onClick={handleLoClick}>Convert to lowercase </button>
+  <button className='btn btn-primary mx-2 my2' onClick={handleTrimClick}>Remove white spaces on both sides </button>
+  <button className='btn btn-primary mx-2 my2' onClick={handleReplaceClick}>Replace the words</button>
     </div>
     
     <div className="container">
